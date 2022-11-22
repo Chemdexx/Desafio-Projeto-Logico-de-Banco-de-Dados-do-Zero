@@ -20,3 +20,26 @@ insert into Veiculo (IdVeiculo_cliente, Marca, Modelo, Ano, Placa) values
     (5, 'Fiat', 'Argo', '2015', 'ELR6325'),
     (6, 'Jeep', 'Commander', '2022', 'CDP3659');
     
+-- OS (IdOS, IdOSVeiculo, Descrição, DataEmissão, StatusOS, DataEntrega)
+insert into OS (IdOSVeiculo, Descrição, DataEmissão, StatusOS, DataEntrega) values
+	(1, 'Amortecedor quebrado', '2016-11-12 15:00:00', 'Andamento', '2016-11-25'),
+    (2, 'Escapamento furado', '2016-11-16 18:00:00', 'Finalizado', '2016-11-18'),
+    (3, 'Troca de Bateria', '2016-11-14 12:30:00', 'Entregue', '2016-11-14'),
+    (4, 'Radiador não funciona', '2016-11-20 11:00:00', 'Andamento', '2016-12-04'),
+    (5, 'Troca de Omocinética', '2016-12-07 9:00:00', 'Finalizado', '2016-11-09'),
+    (6, 'Balanceamento/Alinhamento', '2016-11-27 16:45:00', 'Entregue', '2016-11-27');
+    
+-- Pagamento (IdPagamento, IdOSPagamento, FormaPagamento, limitAvailable)
+insert into Pagamento (IdOSPagamento, FormaPagamento, limitAvailable) values
+	(1, 'PIX', true),
+    (2, default, false),
+    (3, 'Cartão de Débito', false),
+    (4, 'Cartão de Crédito', true),
+    (5, 'Dinheiro', false),
+    (6, null, true);
+    
+
+    
+
+    
+    

@@ -12,3 +12,11 @@ select * from veiculo;
 select Marca, Modelo, Nome from Veiculo, Cliente
 where IdVeiculo = IdCliente 
 order by nome desc;
+
+-- mostra OS de serviço e fusão da tabela Cliente e OS
+select * from OS;
+select * from cliente join OS
+where idOS = IdCliente;
+
+-- mostra tabela de Pagamento
+select * from Pagamento;
