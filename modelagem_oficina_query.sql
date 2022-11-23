@@ -20,3 +20,9 @@ where idOS = IdCliente;
 
 -- mostra tabela de Pagamento
 select * from Pagamento;
+
+-- mostra tabela de Preço
+select * from Preço;
+
+-- mostra tabela Serviços
+select * from Serviços;

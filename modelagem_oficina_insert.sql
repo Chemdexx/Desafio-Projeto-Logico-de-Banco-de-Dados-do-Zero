@@ -38,7 +38,26 @@ insert into Pagamento (IdOSPagamento, FormaPagamento, limitAvailable) values
     (5, 'Dinheiro', false),
     (6, null, true);
     
+-- Preço (IdPreco, IdOSPreco, MãodeObra, Pecas)
+insert into Preço (IdOSPreco, MãodeObra, Pecas) values
+	(1, 250, 'Amortecedor'),
+    (2, 130, 'Escapamento'),
+    (3, 70, 'Bateria'),
+    (4, 100, 'Mangueira'),
+    (5, 236.95, 'Junta Omocinética'),
+    (6, 44, null);
+    
+-- Serviços (IdServico, IdOsServico, Conserto, Revisão)
+insert into Serviços (IdOsServico, Conserto, Revisão) values
+	(1, 'Troca de Amortecedor', null),
+    (2, 'Troca de Escapamento', null),
+    (3, 'Troca de Bateria', null),
+    (4, 'Substituição de Mangueira', null),
+    (5, 'Instalação Junta Omocinética', null),
+    (6, null, 'Ajuste e Revisão');
+    
 
+    
     
 
     
