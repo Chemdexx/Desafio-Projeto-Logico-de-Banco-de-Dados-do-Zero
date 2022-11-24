@@ -56,9 +56,16 @@ insert into Serviços (IdOsServico, Conserto, Revisão) values
     (5, 'Instalação Junta Omocinética', null),
     (6, null, 'Ajuste e Revisão');
     
-
+-- Mecânicos (IdMecanico, IdOSMecanico, NomeMecanico, CPF, Endereço, Especialidade)
+insert into Mecanicos (IdOSMecanico, NomeMecanico, CPF, Endereço, Especialidade) values
+		(1, 'Adilson', '465387962', 'Rua Lugubre', 'Soldador'),
+        (2, 'Antonio', '346859768', 'Av Whitaker', 'Motor'),
+        (3, 'Glauco', '467895321', 'Rua José Neves', 'Suspensão'),
+        (4, 'Portnoy', '852365974', 'Av. Interlagos', 'Transmissão'),
+        (5, 'José Inácio', '947863235', 'Rua Dobradura', 'Carenagem'),
+        (6, 'Cesar Augusto', '756489612', 'Rua dos Pinheiros', 'Elétrica');
+	
     
     
 
-    
     
