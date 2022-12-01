@@ -65,7 +65,14 @@ insert into Mecanicos (IdOSMecanico, NomeMecanico, CPF, Endereço, Especialidade
         (5, 'José Inácio', '947863235', 'Rua Dobradura', 'Carenagem'),
         (6, 'Cesar Augusto', '756489612', 'Rua dos Pinheiros', 'Elétrica');
 	
-    
+-- Equipe Mecânicos (IdEquipeOS, IdEquipeMecânicos, Integrantes)
+insert into EquipeMecanicos (IdEquipeOS, IdEquipeMecanicos, Integrantes) values
+		(1, 3, 'Glauco, ajudante'),
+        (2, 1, 'Adilson, José Inácio'),
+        (3, 6, 'Cesar Augusto'),
+        (4, 5, 'José Inácio, ajudante'),
+        (5, 4, 'Portnoy, Antonio'),
+        (6, 2, 'Antonio');
     
 
     

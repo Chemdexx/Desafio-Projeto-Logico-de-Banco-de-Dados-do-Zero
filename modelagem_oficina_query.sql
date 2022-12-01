@@ -27,5 +27,8 @@ select * from Preço;
 -- mostra tabela Serviços
 select * from Serviços;
 
--- mostra table Mecânicos
+-- mostra tabela Mecânicos
 select * from Mecanicos;
+
+-- mostra tabela Equipe Mecânicos
+select * from Equipemecanicos;
